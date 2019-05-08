@@ -1,0 +1,11 @@
+html, body {
+  padding: 16px;
+}
+
+.marketing-links {
+  font-size: 16px;
+}
+
+.ant-card {
+  margin-bottom: 16px;
+}
