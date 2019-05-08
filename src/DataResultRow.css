@@ -1,0 +1,24 @@
+.component-data-result-row {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  height: 32px;
+  position: relative;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+
+.component-data-result-row:hover {
+  background-color: #eee;
+}
+
+.component-data-result-row img {
+  width: 32px;
+  height: 32px;
+  padding-right: 10px;
+}
+
+.component-data-result-row .title {
+  position: relative;
+  top: -8px;
+}
+
