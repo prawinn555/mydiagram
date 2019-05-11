@@ -7,16 +7,36 @@ Here, you will find example code to create a web app, using the following framew
 * React Javascript library
 
 
-Our Web app will call a simple REST service to manage products
+Test diagram :
 
-* create a simple object ( product)
-* list products
-* update a product
-* delete a product
+<img src='https://g.gravizo.com/svg?
+@startuml;
 
-The REST service is another project.  The service is deployed here 
- [Live service](https://nreactdemo-search.glitch.me/).
- 
+actor User;
+participant "First Class" as A;
+participant "Second Class" as B;
+participant "Last Class" as C;
+
+User -> A: DoWork;
+activate A;
+
+A -> B: Create Request;
+activate B;
+
+B -> C: DoWork;
+activate C;
+
+C --> B: WorkDone;
+destroy C;
+
+B --> A: Request Created;
+deactivate B;
+
+A --> User: Done;
+deactivate A;
+
+@enduml
+'>
 
 
 
