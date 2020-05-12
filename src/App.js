@@ -5,7 +5,6 @@ import DataResults from "./DataResults";
 
 import dataFetcher from "./dataFetcher";
 import CreateButton from "./CreateButton";
-import DiagramEditor from "./DiagramEditor";
 
 import Popup from 'react-popup';
 
@@ -44,16 +43,10 @@ class App extends PureComponent {
   render() {
     return (
       <div>
-        <Header text={'Search my diagrams'} />
+        <Header />
         <SearchInput parent={this} />
         <DataResults listData={this.state.dataToShow} />
         
-        <Header text={'Edit my diagram'} />
-        
-        <DiagramEditor />
-        
-        <Header text={'Save my diagram'} />
-        {/* popup to create diagram */}
         <Popup />
         
         <CreateButton />

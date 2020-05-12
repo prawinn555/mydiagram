@@ -11,7 +11,7 @@ class Header extends PureComponent {
           height="32"
           alt=""
         />
-        {this.props.text}
+        Data Search
         <img
           src="//cdn.jsdelivr.net/emojione/assets/png/1f63a.png"
           width="32"
