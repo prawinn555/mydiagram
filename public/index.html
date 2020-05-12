@@ -5,21 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <title>React Demo with a REST service</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>MyDiagram - view, edit and save my ideas</title>
+    <script src="mermaid.min.js"></script>
   </head>
   <body>
+    <script>
+            window.mermaid.initialize({
+                startOnLoad: false
+            })
+    </script>
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
     
     <!-- The framework will inject the application content
        to this element -->
-    <div id="root"></div>
-    
+    <div id="root" style="padding:1em;"></div>
+     
     <a
       class="github-fork-ribbon"
-      href="https://github.com/prawinn555/reactdemo-search"
-      title="Fork me on GitHub">
+      href="https://github.com/prawinn555/mydiagram"
+      title="Fork me on GitHub"
+       target="_blank">
         Fork me on GitHub
     </a>
   </body>

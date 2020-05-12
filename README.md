@@ -38,7 +38,7 @@ Visit [Live demo](https://reactdemo-search.glitch.me/), powered by Glitch
 
 ## Code
 
-From [Github](https://github.com/prawinn555/rreactdemo-search)
+From [Github](https://github.com/prawinn555/mydiagram)
 
 
 ## Installation
@@ -52,8 +52,8 @@ From [Github](https://github.com/prawinn555/rreactdemo-search)
 
 
 ```
-git clone https://github.com/prawinn555/reactdemo
-cd reactdemo/
+git clone https://github.com/prawinn555/mydiagram
+cd mydiagram/
 npm install
  
 ```
