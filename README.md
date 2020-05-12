@@ -7,29 +7,17 @@ Here, you will find example code to create a web app, using the following framew
 * React Javascript library
 
 
-Test diagram :
+Our Web app will call a simple REST service to manage products
 
-![Alt text](https://g.gravizo.com/source/custom_mark10?https%3A%2F%2Fraw.githubusercontent.com%2FTLmaK0%2Fgravizo%2Fmaster%2FREADME.md)
-<details> 
-<summary></summary>
-custom_mark10
-  digraph G {
-    size ="4,4";
-    main [shape=box];
-    main -> parse [weight=8];
-    parse -> execute;
-    main -> init [style=dotted];
-    main -> cleanup;
-    execute -> { make_string; printf};
-    init -> make_string;
-    edge [color=red];
-    main -> printf [style=bold,label="100 times"];
-    make_string [label="make a string"];
-    node [shape=box,style=filled,color=".7 .3 1.0"];
-    execute -> compare;
-  }
-custom_mark10
-</details>
+* create a simple object ( product)
+* list products
+* update a product
+* delete a product
+
+The REST service is another project.  The service is deployed here 
+ [Live service](https://nreactdemo-search.glitch.me/).
+ 
+
 
 
 ## Online live demo
@@ -38,7 +26,7 @@ Visit [Live demo](https://reactdemo-search.glitch.me/), powered by Glitch
 
 ## Code
 
-From [Github](https://github.com/prawinn555/rreactdemo-search)
+From [Github](https://github.com/prawinn555/mydiagram)
 
 
 ## Installation
@@ -52,8 +40,8 @@ From [Github](https://github.com/prawinn555/rreactdemo-search)
 
 
 ```
-git clone https://github.com/prawinn555/reactdemo
-cd reactdemo/
+git clone https://github.com/prawinn555/mydiagram
+cd mydiagram/
 npm install
  
 ```
