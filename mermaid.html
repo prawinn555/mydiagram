@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+        <title>Test Mermaid</title>
+    
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <script src="mermaid.min.js"></script>
+  </head>
+  <body>
+
+    
+    
+    <div id="graphDiv">
+    
+    </div>
+    
+    <script>
+        mermaid.initialize({
+            startOnLoad: false
+        })
+
+        var myGrapheContent = 'graph TB\naddddddddd-->brrrrrrrrrr';
+
+        function renderOnElement(grapheContent, elementId) {
+            var element = document.querySelector("#" + elementId);
+            var insertSvg = function(svgCode, bindFunctions){
+                element.innerHTML = svgCode;
+            };
+            mermaid.render('graphSvg', grapheContent, insertSvg);
+        }
+
+        renderOnElement(myGrapheContent,"graphDiv");
+    </script>
+
+    
+    
+
+  </body>
+</html>
