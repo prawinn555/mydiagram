@@ -34,7 +34,9 @@ custom_mark10
 
 ## Online live demo
 
-Visit [Live demo](https://reactdemo-search.glitch.me/), powered by Glitch
+[Github pages](https://prawinn555.github.io/mydiagram/)
+
+
 
 ## Code
 
@@ -43,35 +45,31 @@ From [Github](https://github.com/prawinn555/mydiagram)
 
 ## Installation
 
-
-### Prerequisites
-
-* Install NodeJS
-
-### Installation
-
-
 ```
+
 git clone https://github.com/prawinn555/mydiagram
 cd mydiagram/
-npm install
- 
-```
-
-* Change your database URL in the file .env. 
 
 
-```
-TODO
+npm i
+npm start
 
 ```
 
-* Run the application
+
+## Deployment
 
 ```
-node start
- 
+npm run build
+
+gh-pages -d build
+
 ```
+
+(must install gh-pages before)
+
+
+
 
 
 ## Understand the code

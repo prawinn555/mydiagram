@@ -99,7 +99,7 @@ class DiagramSearch extends PureComponent {
     
   generateEmpty(){
       var res= <div className="component-data-result-row" >
-                    <span className="title">No matching item :(</span>
+                    <span className="title">Loading or no result</span>
                   </div> ;
       console.log(`No matching`);
       return res;
